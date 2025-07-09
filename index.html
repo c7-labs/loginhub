@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Primary Meta Tags -->
+    <title>Free AI-Powered Login Management Hub</title>
+    <meta name="title" content="Free AI-Powered Login Management Hub">
+    <meta name="description"
+        content="LoginHub provides completely free AI-powered tools for centralized login management, social authentication integration, multi-platform login systems, and real-time analytics. Get instant, professional-grade solutions without registration.">
+    <meta name="keywords"
+        content="login management hub, social authentication, multi-platform login, login analytics, AI login tools, authentication dashboard, free login hub, LoginHub">
+    <meta name="author" content="LoginHub Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.loginhub.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.loginhub.com/">
+    <meta property="og:title" content="Free AI-Powered Login Management Hub">
+    <meta property="og:description"
+        content="Centralize all your login integrations, manage social authentication, and monitor login analytics across multiple platforms. 100% free and powered by AI — no limits or registration required.">
+    <meta property="og:image" content="https://www.loginhub.com/images/og-image.png">
+    <meta property="og:site_name" content="LoginHub">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.loginhub.com/">
+    <meta name="twitter:title" content="Free AI-Powered Login Management Hub">
+    <meta name="twitter:description"
+        content="Instant login management, social authentication integration, and multi-platform analytics with AI-powered insights. All tools are completely free.">
+    <meta name="twitter:image" content="https://www.loginhub.com/images/twitter-image.png">
+    <meta name="twitter:site" content="@loginhub">
+    <meta name="twitter:creator" content="@loginhub">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "LoginHub",
+      "url": "https://www.loginhub.com",
+      "description": "LoginHub is a free AI-powered login management platform offering centralized authentication, social login integration, multi-platform management, and real-time analytics.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "LoginHub",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.loginhub.com/images/logo.png"
+        }
+      },
+      "sameAs": [
+        "https://twitter.com/loginhub",
+        "https://github.com/loginhub",
+        "https://linkedin.com/company/loginhub"
+      ]
+    }
+    </script>
+
+    <!-- Theme & Branding -->
+    <meta name="theme-color" content="#4f46e5">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="dist/output.css">
+    <script defer>
+        // Toggle mobile menu and icon
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("mobile-menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const icon = document.getElementById("menu-icon");
+
+            toggleButton.addEventListener("click", () => {
+                mobileMenu.classList.toggle("hidden");
+
+                // Toggle between ☰ and ✕
+                if (icon.textContent === "☰") {
+                    icon.textContent = "✕";
+                } else {
+                    icon.textContent = "☰";
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header
+        class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300"
+        id="header">
+        <div class="max-w-6xl mx-auto lg:px-5">
+            <div class="flex justify-between items-center py-4 px-5 lg:px-0">
+                <a href="/" class="flex items-center text-2xl font-bold text-gray-900 no-underline">
+                    <div class="w-8 h-8 mr-2 bg-primary-600 rounded-full flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                            <path d="M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M21,9V7L15,1L13.5,2.5L16.17,5.17L10.5,10.84L6.83,7.17L9.5,4.5L8,3L2,9H4V19A2,2 0 0,0 6,21H18A2,2 0 0,0 20,19V9H21M16,10.5L18.5,8L17,6.5L14.5,9L16,10.5Z"/>
+                        </svg>
+                    </div>
+                    LoginHub
+                </a>
+
+                <nav class="flex items-center gap-8">
+                    <!-- Desktop Menu -->
+                    <ul class="hidden md:flex list-none gap-8">
+                        <li><a href="#features"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">Features</a>
+                        </li>
+                        <li><a href="#tools"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">Tools</a>
+                        </li>
+                        <li><a href="#how-it-works"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">How
+                                It Works</a>
+                        </li>
+                        <li><a href="/blog"
+                                class="no-underline text-gray-900 font-medium hover:text-primary-600 transition-colors">Blog</a>
+                        </li>
+                    </ul>
+
+                    <a href="#hero-cta" class="bg-primary-600 text-white px-6 py-3 rounded-lg no-underline font-semibold transition-all duration-300 hover:bg-primary-700 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2">Start Hub Free</a>
+
+                    <!-- Toggle Button -->
+                    <button id="mobile-menu-toggle"
+                        class="md:hidden bg-none border-none text-2xl cursor-pointer focus:outline-none"
+                        aria-label="Toggle mobile menu">
+                        <span id="menu-icon">☰</span>
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden py-4 px-5 lg:px-0 border-t border-gray-200">
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#features"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">Features</a>
+                    </li>
+                    <li><a href="#tools"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">Tools</a></li>
+                    <li><a href="#how-it-works"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">How It
+                            Works</a></li>
+                    <li><a href="/blog"
+                            class="block text-gray-900 font-medium hover:text-primary-600 transition-colors">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary-50 to-indigo-100 py-12 lg:py-24 mt-[65px] relative overflow-hidden"
+        id="hero">
+        <div class="max-w-6xl mx-auto px-5">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-gray-900">Free AI-Powered Login<br
+                        class="hidden lg:block" /> Management Hub</h1>
+                <p class="text-xl mb-8 max-w-3xl mx-auto text-gray-600">Centralize all your login integrations, manage social authentication, and monitor login analytics across multiple platforms. All powered by AI and completely free with no registration required.</p>
+
+                <div class="flex justify-center flex-wrap gap-4 mt-8 text-left text-gray-500 mx-auto">
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Social Login Integration Hub</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Multi-Platform Authentication</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Login Analytics Dashboard</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free API Integration Manager</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>AI-Powered Login Optimization</span>
+                    </div>
+                </div>
+
+                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center"><a
+                        class="transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary-600 text-white hover:bg-primary-700 h-14 rounded-md text-lg px-8 py-4 min-w-[200px]"
+                        href="/">Start Hub Free</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-12 lg:py-20" id="features">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Centralized Login Management Platform</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Our AI-powered platform provides unified authentication management across all your platforms and applications.</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M21,9V7L15,1L13.5,2.5L16.17,5.17L10.5,10.84L6.83,7.17L9.5,4.5L8,3L2,9H4V19A2,2 0 0,0 6,21H18A2,2 0 0,0 20,19V9H21Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Social Authentication Hub</h3>
+                    <p class="text-gray-600 leading-relaxed">Integrate and manage multiple social login providers (Google, Facebook, Twitter, LinkedIn, GitHub) from one centralized dashboard.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,16L19.36,10.27L21,9L12,2L3,9L4.63,10.27M12,18.54L4.62,12.81L3,14.07L12,21.07L21,14.07L19.38,12.8L12,18.54Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Multi-Platform Login Manager</h3>
+                    <p class="text-gray-600 leading-relaxed">Connect and synchronize login systems across websites, apps, and platforms with unified authentication management.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22,21H2V3H4V19H6V17H10V19H12V16H16V19H18V17H22V21M16,8A2,2 0 0,0 18,6V4H16V6A2,2 0 0,0 14,8H12V10H16V8M10,8V10H12V8A2,2 0 0,0 10,6V4H8V6A2,2 0 0,0 10,8M6,8A2,2 0 0,0 8,6V4H6V6A2,2 0 0,0 4,8H2V10H6V8Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Login Analytics Dashboard</h3>
+                    <p class="text-gray-600 leading-relaxed">Track login performance, user authentication patterns, and conversion rates with real-time analytics and insights.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8,3A2,2 0 0,0 6,5V9A2,2 0 0,1 4,11H3V13H4A2,2 0 0,1 6,15V19A2,2 0 0,0 8,21H10V19H8V14A2,2 0 0,0 6,12A2,2 0 0,0 8,10V5H10V3M16,3A2,2 0 0,1 18,5V9A2,2 0 0,0 20,11H21V13H20A2,2 0 0,0 18,15V19A2,2 0 0,1 16,21H14V19H16V14A2,2 0 0,1 18,12A2,2 0 0,1 16,10V5H14V3H16Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Authentication API Hub</h3>
+                    <p class="text-gray-600 leading-relaxed">Manage multiple authentication APIs, OAuth providers, and custom login integrations through one unified interface.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-gray-100" id="how-it-works">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Simple 3-Step Process</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Get centralized login management in just three simple steps</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        1</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Connect Platforms</h3>
+                    <p class="text-gray-600">Add your websites, apps, and social login providers</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        2</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">AI Configuration</h3>
+                    <p class="text-gray-600">Our AI optimizes and manages all login integrations</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        3</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Monitor & Optimize</h3>
+                    <p class="text-gray-600">Track performance and get AI-powered recommendations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="py-12 lg:py-20" id="tools">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Free AI-Powered Login Hub Tools</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Professional-grade login management tools, completely free and powered by advanced AI</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M21,9V7L15,1L13.5,2.5L16.17,5.17L10.5,10.84L6.83,7.17L9.5,4.5L8,3L2,9H4V19A2,2 0 0,0 6,21H18A2,2 0 0,0 20,19V9H21Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Social Login Manager</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Connect multiple social platforms with unified management and seamless integration.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('social')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3,3H21V5H3V3M3,7H15V9H3V7M3,11H21V13H3V11M3,15H15V17H3V15M3,19H21V21H3V19M16,7V17L22,12L16,7Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Authentication Dashboard</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Monitor all login systems with comprehensive dashboard and real-time insights.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('dashboard')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8,3A2,2 0 0,0 6,5V9A2,2 0 0,1 4,11H3V13H4A2,2 0 0,1 6,15V19A2,2 0 0,0 8,21H10V19H8V14A2,2 0 0,0 6,12A2,2 0 0,0 8,10V5H10V3M16,3A2,2 0 0,1 18,5V9A2,2 0 0,0 20,11H21V13H20A2,2 0 0,0 18,15V19A2,2 0 0,1 16,21H14V19H16V14A2,2 0 0,1 18,12A2,2 0 0,1 16,10V5H14V3H16Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free API Integration Tool</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Manage authentication APIs and OAuth providers through unified interface.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('api')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22,21H2V3H4V19H6V17H10V19H12V16H16V19H18V17H22V21M16,8A2,2 0 0,0 18,6V4H16V6A2,2 0 0,0 14,8H12V10H16V8M10,8V10H12V8A2,2 0 0,0 10,6V4H8V6A2,2 0 0,0 10,8M6,8A2,2 0 0,0 8,6V4H6V6A2,2 0 0,0 4,8H2V10H6V8Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Login Analytics</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Track user authentication patterns with detailed analytics and performance metrics.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('analytics')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Performance Monitor</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Real-time login system monitoring with performance optimization recommendations.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('monitor')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-medium">100% Free</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Security Hub</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Centralized login security management with threat detection and vulnerability assessment.</p>
+                    <button
+                        class="bg-primary-600 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                        onclick="startTool('security')">Try Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Why Choose LoginHub?</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Centralized login management made simple and accessible</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🚀</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Instant Setup</h3>
+                        <p class="text-gray-600 leading-relaxed">Connect multiple login systems in under 30 seconds with our streamlined integration process</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🤖</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">AI-Powered</h3>
+                        <p class="text-gray-600 leading-relaxed">Advanced algorithms optimize login performance across platforms with intelligent recommendations</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">📊</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Unified Dashboard</h3>
+                        <p class="text-gray-600 leading-relaxed">Manage all authentication systems from one centralized, intuitive interface</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🔗</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Universal Integration</h3>
+                        <p class="text-gray-600 leading-relaxed">Support for 50+ social login providers and APIs with seamless connectivity</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">📈</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Real-time Analytics</h3>
+                        <p class="text-gray-600 leading-relaxed">Track login performance and user behavior with comprehensive analytics and insights</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🆓</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Completely Free</h3>
+                        <p class="text-gray-600 leading-relaxed">All AI-powered hub tools are free to use, no limits or hidden costs</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🌟</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">No Registration</h3>
+                        <p class="text-gray-600 leading-relaxed">Start managing logins immediately without signup or account creation</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🔒</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Enterprise Security</h3>
+                        <p class="text-gray-600 leading-relaxed">Bank-level security for all login integrations with advanced threat protection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white" id="contact">
+        <div class="max-w-6xl mx-auto px-5">
+            <!-- Top section with logo and social icons -->
+            <div class="py-8 border-b border-gray-800">
+                <div class="flex items-center justify-between">
+                    <!-- Logo -->
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M21,9V7L15,1L13.5,2.5L16.17,5.17L10.5,10.84L6.83,7.17L9.5,4.5L8,3L2,9H4V19A2,2 0 0,0 6,21H18A2,2 0 0,0 20,19V9H21Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-xl font-semibold">LoginHub</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <!-- <div class="flex items-center space-x-4">
+                       
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+
+                        
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200" aria-label="X">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+
+                       
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200" aria-label="GitHub">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+
+            <!-- Bottom section with copyright and links -->
+            <div class="py-8">
+                <div
+                    class="flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 gap-4 lg:gap-0">
+                    <!-- Copyright -->
+                    <div class="text-md text-white">
+                        <span class="flex items-center">
+                            &copy;&nbsp;Copyright&nbsp;<span id="year"></span>&nbsp;LoginHub.com. 
+                        </span>
+                    </div>
+
+                    <!-- Footer Links -->
+                    <ul class="flex flex-wrap items-center gap-6 text-md">
+                        <li><a href="#features"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">Features</a>
+                        </li>
+                        <li><a href="#tools"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">Tools</a></li>
+                        <li><a href="#how-it-works"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">How It Works</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        
+    </script>
+</body>
+
+</html>
