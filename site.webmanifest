@@ -1,7 +1,7 @@
 {
-    "name": "SSO Tools - Free AI-Powered SSO Tools & Testing Platform",
-    "short_name": "SSOTools",
-    "description": "SSOTools provides completely free AI-powered tools for SSO testing, SAML/OAuth validation, security assessment, and identity provider integration. Get instant, professional-grade insights without registration.",
+    "name": "Free AI-Powered Login Management Hub",
+    "short_name": "LoginHub",
+    "description": "LoginHub provides completely free AI-powered tools for centralized login management, social authentication integration, multi-platform login systems, and real-time analytics. Get instant, professional-grade solutions without registration.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
